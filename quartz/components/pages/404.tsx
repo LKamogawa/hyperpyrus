@@ -11,6 +11,7 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
       <h1>404</h1>
       <p>{i18n(cfg.locale).pages.error.notFound}</p>
       <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
+      <img src="https://http.cat/404.jpg" alt="404 Page not found"></img>
     </article>
   )
 }
