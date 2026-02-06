@@ -1,6 +1,5 @@
 ---
 title:
-subtitle: ""
 description: ""
 date: {{date}}
 updated: {{date}}
