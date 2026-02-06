@@ -2,7 +2,6 @@
 title:
 description: ""
 date: {{date}}
-updated: {{date}}
 cover:
 tags:
   - draft
