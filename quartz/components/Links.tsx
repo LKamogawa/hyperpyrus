@@ -43,6 +43,12 @@ export default ((userOpts?: Partial<Options>) => {
           </li>
           <li>
             <h3 style={{ marginTop: 0, marginBottom: 0 }}>
+              <a href="/vernissage">Vernissage</a>
+            </h3>
+            <i>you're invited to see my oeuvre</i>
+          </li>
+          <li>
+            <h3 style={{ marginTop: 0, marginBottom: 0 }}>
               <a href="/misc">Misc</a>
             </h3>
             <i>where the unfittable can fit</i>
