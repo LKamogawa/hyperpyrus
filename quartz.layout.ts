@@ -42,7 +42,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Links(),
   ],
-  right: [Component.Graph(), Component.Backlinks()],
+  right: [
+    Component.Graph(),
+    Component.Backlinks(),
+    Component.RecentNotes({
+      title: "Most recent posts",
+      limit: 5,
+    }),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)

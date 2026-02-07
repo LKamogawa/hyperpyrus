@@ -31,9 +31,9 @@ const config: QuartzConfig = {
           lightgray: "rgb(230, 228, 217)",
           gray: "rgb(206, 205, 195)",
           darkgray: "rgb(16, 15, 15)",
-          dark: "rgb(111, 110, 105)",
-          secondary: "rgb(36, 131, 123)",
-          tertiary: "rgb(58, 169, 159)",
+          dark: "rgb(16, 15, 15)",
+          secondary: "rgb(230, 0, 51)",
+          tertiary: "rgb(154, 0, 34)",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
@@ -87,7 +87,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      // Plugin.CustomOgImages(),
+      Plugin.CustomOgImages(),
     ],
   },
 }
