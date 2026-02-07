@@ -46,8 +46,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.Backlinks(),
     Component.RecentNotes({
-      title: "Last Memories",
-      limit: 4,
+      title: "Most recent posts",
+      limit: 5,
     }),
   ],
 }
