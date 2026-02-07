@@ -11,6 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       LKamogawa: "https://lkamogawa.com",
       GitHub: "https://github.com/LKamogawa/hyperpyrus",
       LinkedIn: "https://linkedin.com/in/leonardo-kamogawa/",
+      RSS: "https://hyperpyrus.lkamogawa.com/index.xml",
     },
   }),
 }
